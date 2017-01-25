@@ -1,0 +1,7 @@
+source "https://rubygems.org"
+
+gem "capybara"
+gem "calabash-cucumber", '0.20.3'
+gem "pry"
+gem "rspec"
+gem "calabash-android"
