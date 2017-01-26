@@ -1,50 +1,50 @@
-back
-exit
+query "* text:'Chapter 10: Publishing'"
+flash "text:'Chapter 10: Pubishing'"
+flash "* text:'Chapter 10: Pubishing'"
+flash "* text:'Chapter 10: Publishing'"
+flash "* text:'Chapter 10: Publishing'"
+flash "* text:'Chapter 10: Publishing'"
+touch  "text:'Chapter 10: Publishing'"
+touch "text:'Chapter 10: Publishing'"
+touch "* text:'Chapter 10: Publishing'"
+touch "* text:'Chapter 10: Publishing'";2D;2D;2D
+touch "* text:'Chapter 10: Publishing'"
+touch "* text:'Chapter 10: Publshing'"
+touch "* text:'Chapter 10: Publishing'"
+touch "* text:'APK Instructionsg'"
+touch "* text:'APK Instructions'"
 methods
+wait_for_element_exists "* text:'Publishing Instructions'
+wait_for_element_exists "* text:'Publishing Instructions'"
+wait_for_element_exists "* text:'Publishing Instructions'"
+"
+wait_for_element_exists "* text:'Publishing Instructions'"
+exit
+wait_for_element_exists("* text:'Chapter 10: Publishing'")
+wait_for_element_exists("* text:'Chapter 10: Publishing'")
+wait_for_element_exists("* text:'Chapter 10: Publishing'").flash
+wait_for_element_exists("* text:'Chapter 10: Publishing'"
+wait_for_element_exists("* text:'Chapter 10: Publishing'")
+exit
 start_test_server_in_background
-query "*"
-query "center_y = 830"
-query ("center_y, 830)
-query ("center_y", 830)
-query ("center_y", "830")
-query ("center_y", setText:"830")
-query (center_y: "830")
-query "*"
+wait_for_element_exists("* text:'Chapter 10: Publishing'")
+wait_for_element_exists("* text:'Chapter 10: Publishing'").flash
+reinstall_apps
+exit
 )
-query "*"
-query ("class", "android.widget.ActionMenuPresenter$OverflowMenuButton")
-query "id:'action_bar_title'"
-query "* id:'action_bar_title'"
-wait_for_elements_exist "* id:'action_bar_title'"
-wait_for_element_exists "* id:'action_bar_title'"
-flash "* id:'action_bar_title'"
-exit
-query "*"
-start_test_server_in_background
-query "*"
-query ""
-query "* button"
-query "* button:'*'"
-query "*"
-exit
 exit
 start_test_server_in_background
-query "* label:'Chapter 1'"
-query "* label:'Chapter 2'"
-query "* label:'Chapter 2*'"
+wait_for_element_exists("* text:'Chapter 10: Publishing'").flash
+wait_for_element_exists("* text:'Chapter 10: Publishing'")
+wait_for_element_exists("* text:'APK Instructions'")
+exit
+start_test_server_in_background
+exit
+reinstall_app
+gem reinstall_app
+reinstall_app
+reinstall_apps
+start_test_server_in_background
+exit
 query "*"
-query "* text:'Chapter 2'"
-query "* text:'Chapter 2*'"
-query "* text:'Chapter 2: User Interface'"
-exit
-start_test_server_in_background
-query touch
-touch (* text:'Chapter 2: User Interface')
-touch "* text:'Chapter 2: User Interface'"
-exit
-exit
-exit
-exit
-start_test_server_in_background
-start_test_server_in_background
 exit

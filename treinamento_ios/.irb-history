@@ -1,0 +1,74 @@
+start_test_server_in_background
+start_test_server_in_background
+exit
+start_test_server_in_background
+exit
+start_test_server_in_background
+ls
+start_test_server_in_background
+exit
+start_test_server_in_background
+exit
+start_test_server_in_background
+ids
+labels
+tree
+exit
+ids
+start_test_server_in_background
+ids
+exit
+ids
+query "* id:'CalTextField'"
+query ("*id:'CalTextField'")
+query("*id:'CalTextField'")
+query("* id:'CalTextField'")
+query("* text:'CalTextField'")
+query("* label:'CalTextField'")
+query("*")
+ids
+query("* label:'Cal'")
+query("* text:'Cal'")
+c
+exit
+exit
+exit
+start_test_server_in_background
+ids
+flash "slider"
+flash
+flash("switch")
+flash
+flash"*"
+start_test_server_in_background
+ids
+start_test_server_in_background
+ids
+query "* id:'switch'"
+query "* id:'switch'"
+query "* id:'switch'"
+query "* id:'switch'"
+query "* id:'switch'"
+query "* id:'switch'"
+query("* id:'switch'")['value']
+query("* id:'switch'")
+x=query("* id:'switch'")
+"
+"
+x
+x['accessibilityElement']
+x[0]
+x['value']
+x.class
+x.count
+x.keys
+x[0].keys
+x[0]['accessibilityElement']
+x[0]['value']
+x
+query("* id:'switch'")[0]['value']
+exit
+start_test_server_in_background
+ids
+query "* id:'switch'"
+exit
