@@ -1,8 +1,3 @@
-start_test_server_in_background
-exit
-start_test_server_in_background
-ids
-labels
 tree
 exit
 ids
@@ -97,4 +92,9 @@ ids
 flash "* id:'cal text field'"
 ids
 flash "* id:'text'"
+exit
+flash "* id:'text'"
+query "*"
+exit
+ids
 exit
