@@ -1,6 +1,3 @@
-query "* text:'Chapter 10: Publishing'"
-flash "text:'Chapter 10: Pubishing'"
-flash "* text:'Chapter 10: Pubishing'"
 flash "* text:'Chapter 10: Publishing'"
 flash "* text:'Chapter 10: Publishing'"
 flash "* text:'Chapter 10: Publishing'"
@@ -48,3 +45,6 @@ start_test_server_in_background
 exit
 query "*"
 exit
+start_test_server_in_background
+start_test_server_in_background
+help

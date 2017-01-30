@@ -1,13 +1,4 @@
 start_test_server_in_background
-start_test_server_in_background
-exit
-start_test_server_in_background
-exit
-start_test_server_in_background
-ls
-start_test_server_in_background
-exit
-start_test_server_in_background
 exit
 start_test_server_in_background
 ids
@@ -71,4 +62,39 @@ exit
 start_test_server_in_background
 ids
 query "* id:'switch'"
+exit
+reinstall_apps
+reinstall_apps
+start_test_server_in_background
+exit
+START
+start 
+start_test_server_in_background
+exit
+start 
+start
+start_test_server_in_background 
+help
+exit
+start_test_server_in_background
+exit
+start_test_server_in_background
+exit
+start_test_server_in_background
+exit
+start_test_server_in_background
+cd ..
+ls
+exit
+start_test_server_in_background
+ids
+ids
+flash cal text field
+flash "* cal text field"
+flash "* id:cal text field"
+flash "* id:'cal text field'"
+ids
+flash "* id:'cal text field'"
+ids
+flash "* id:'text'"
 exit
