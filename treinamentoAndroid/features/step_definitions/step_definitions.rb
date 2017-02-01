@@ -1,4 +1,4 @@
-Dado(/^que o app "([^"]*)" foi executado com sucesso$/) do |arg1|
+Dado(/^que o app foi executado com sucesso$/) do
   wait_for_element_exists "* id:'action_bar_title'"
 end
 
