@@ -1,3 +1,6 @@
 *.png
 *.ipa
 *.app
+treinamentoAndroid/test_servers/*.apk
+treinamentoAndroid/.calabash_settings
+treinamentoAndroid/.DS_Store
