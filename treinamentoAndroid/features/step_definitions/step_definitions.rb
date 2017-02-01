@@ -21,13 +21,10 @@ clear_text_in("* text:'#{arg1}'")
 end
 
 Dado(/^preencho o campo "([^"]*)" com conteudo "([^"]*)"$/) do |arg1, arg2|
+  clear_text_in "*id '#{arg1}'"
+  enter_text "* id:'#{arg1}'", arg2
 end
 
-Dado(/^marco o checkbox$/) do
-end
-
-Quando(/^Clico no botão "([^"]*)"$/) do |arg1|
-end
-
-Então(/^eu espero que a mensagem "([^"]*)" exista$/) do |arg1|
+Dado(/^marco o checkbox "([^"]*)"$/) do |arg1|
+  touch("* id:'chkPersistState'")
 end
