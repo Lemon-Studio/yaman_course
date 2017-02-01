@@ -3,8 +3,7 @@ Dado(/^que o app foi executado com sucesso$/) do
 end
 
 Quando(/^clico no botão "([^"]*)"$/) do |arg1|
-  wait_for_element_exists("* text:'#{arg1}'")
-  touch("* text:'#{arg1}'")
+  Navigation.new.wait_and_click arg1
 end
 
 Então(/^eu espero que a tela "([^"]*)" exista$/) do |arg1|
