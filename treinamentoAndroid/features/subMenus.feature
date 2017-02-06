@@ -1,5 +1,5 @@
 #language: pt
-
+@rodar1
 Funcionalidade: Exibiçao dos Sub-Menus do aplicativo
 
   Cenário: Exibir Sub-Menu da opçao Chapter 1
@@ -73,7 +73,7 @@ Funcionalidade: Exibiçao dos Sub-Menus do aplicativo
     Dado que o app "Padrão Android" foi executado com sucesso
     Quando toco no botão "Chapter 9: Content Providers"
     Entao espero que o sub-menu "Contact List" seja exibido
-
+@cenario10
   Cenário: Exibir Sub-Menu da opçao Chapter 10
 
     Dado que o app "Padrão Android" foi executado com sucesso

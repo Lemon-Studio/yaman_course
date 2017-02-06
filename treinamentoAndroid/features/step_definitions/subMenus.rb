@@ -1,8 +1,3 @@
-Quando(/^toco no botão "([^"]*)"$/) do |arg1|
-    wait_for_element_exists("* text:'#{arg1}'")
-    touch("* text:'#{arg1}'")
-  end
-
 Entao(/^espero que o sub\-menu "([^"]*)" seja exibido$/) do |arg1|
   wait_for_element_exists("* text:'#{arg1}'")
 end

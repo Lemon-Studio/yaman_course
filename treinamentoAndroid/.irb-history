@@ -1,18 +1,3 @@
-flash "* text:'Chapter 10: Publishing'"
-flash "* text:'Chapter 10: Publishing'"
-flash "* text:'Chapter 10: Publishing'"
-touch  "text:'Chapter 10: Publishing'"
-touch "text:'Chapter 10: Publishing'"
-touch "* text:'Chapter 10: Publishing'"
-touch "* text:'Chapter 10: Publishing'";2D;2D;2D
-touch "* text:'Chapter 10: Publishing'"
-touch "* text:'Chapter 10: Publshing'"
-touch "* text:'Chapter 10: Publishing'"
-touch "* text:'APK Instructionsg'"
-touch "* text:'APK Instructions'"
-methods
-wait_for_element_exists "* text:'Publishing Instructions'
-wait_for_element_exists "* text:'Publishing Instructions'"
 wait_for_element_exists "* text:'Publishing Instructions'"
 "
 wait_for_element_exists "* text:'Publishing Instructions'"
@@ -48,3 +33,18 @@ exit
 start_test_server_in_background
 start_test_server_in_background
 help
+reinstall_apps
+devices
+reinstall_apps 
+exit
+start_test_server_in_background
+reinstall_apps 
+start_test_server_in_background
+query"*"
+check
+checked
+methods
+touch("* id:'chkPersistState'")
+query"*"
+touch("* id:'btnPersistValues'")
+exit
