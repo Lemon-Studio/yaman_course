@@ -1,6 +1,3 @@
-wait_for_element_exists "* text:'Publishing Instructions'"
-"
-wait_for_element_exists "* text:'Publishing Instructions'"
 exit
 wait_for_element_exists("* text:'Chapter 10: Publishing'")
 wait_for_element_exists("* text:'Chapter 10: Publishing'")
@@ -47,4 +44,7 @@ methods
 touch("* id:'chkPersistState'")
 query"*"
 touch("* id:'btnPersistValues'")
+exit
+start_test_server_in_background
+reinstall_apps
 exit
