@@ -11,7 +11,7 @@ wait_for_element_exists("* text:'Chapter 10: Publishing'").flash
 reinstall_apps
 exit
 )
-exit
+exitsasasaass
 start_test_server_in_background
 wait_for_element_exists("* text:'Chapter 10: Publishing'").flash
 wait_for_element_exists("* text:'Chapter 10: Publishing'")
@@ -32,10 +32,10 @@ start_test_server_in_background
 help
 reinstall_apps
 devices
-reinstall_apps 
+reinstall_apps
 exit
 start_test_server_in_background
-reinstall_apps 
+reinstall_apps
 start_test_server_in_background
 query"*"
 check

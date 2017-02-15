@@ -35,5 +35,5 @@ Quando(/^Clico no botão "([^"]*)"$/) do |arg1|
 end
 
 Então(/^eu espero que a mensagem "([^"]*)" exista$/) do |arg1|
-  wait_for_element_exists("* text:'#{arg1}'",wait:"3")
+  wait_for_element_exists("* text:'#{arg1}'",wait:"8")
 end
