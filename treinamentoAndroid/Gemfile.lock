@@ -69,6 +69,8 @@ GEM
     multi_test (0.1.2)
     nokogiri (1.7.0.1)
       mini_portile2 (~> 2.1.0)
+    nokogiri (1.7.0.1-x64-mingw32)
+      mini_portile2 (~> 2.1.0)
     pry (0.10.4)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -109,6 +111,7 @@ GEM
 
 PLATFORMS
   ruby
+  x64-mingw32
 
 DEPENDENCIES
   calabash-android
