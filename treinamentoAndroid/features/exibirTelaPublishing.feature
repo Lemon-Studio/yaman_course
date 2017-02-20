@@ -1,5 +1,5 @@
 #language: pt
-Funcionalidade: Conhecendo os métodos e a utilização das chamadas do Calabash
+Funcionalidade: Exibir Tela Publishing
 
   Cenário: Exibicao da tela "PublishingInstructionsActivity"
 

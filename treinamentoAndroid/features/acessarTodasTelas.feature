@@ -1,5 +1,5 @@
 #language: pt
-Funcionalidade: Conhecendo os métodos e a utilização das chamadas do Calabash
+Funcionalidade: Acessar telas do sistema
 @cenario3
   Cenário: Acessar tela Explicit Intents com sucesso
 

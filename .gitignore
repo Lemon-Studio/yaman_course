@@ -1,3 +1,5 @@
 *.png
 *.ipa
 *.app
+*.DS_Store
+*.irb-history
